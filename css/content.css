@@ -11,6 +11,7 @@ html{
   margin-left: auto;
   background-color: rgb(238, 236, 236);
 }
+
 menu a{
   font-weight: bold;
   padding: 0px 10px;
@@ -106,6 +107,7 @@ list-style-type: none;
   height: 225px;
   width: 40%;
 }
+
 #logoHome img{
   width: 80%;
 }
@@ -117,3 +119,5 @@ li.lastItem {
   padding-right: 0;
   margin-right: 0;
 }
+
+
