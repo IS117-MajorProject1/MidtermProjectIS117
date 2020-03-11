@@ -1,0 +1,173 @@
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  background-color: #a9a9a9;
+}
+
+#wrap{
+  width: 1208px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(238, 236, 236);
+}
+menu a{
+  font-weight: bold;
+  padding: 0px 10px;
+}
+#homeMenu{
+  position: relative;
+  z-index: 99;
+  padding-right: 53px;
+  padding-top: 35px;
+  float: right;
+}
+menu hr{
+  float: right;
+  width: 250%;
+  border: solid black;
+}
+#mainPage hr{
+  margin-left: 37.5%;
+  width: 35%;
+  border: solid black 1px;
+}
+#mainPage #hr1{
+ margin-bottom: -30px;
+}
+
+footer{
+  text-align: center;
+}
+h5{
+  font-size: 120%;
+}
+h6{
+  font-size: 100%;
+  padding-left: 460px;
+  margin-bottom: 0px;
+}
+#mainPage p{
+  padding-left: 150px;
+  margin-top: 0px;
+}
+menu{
+  padding: 0;
+  margin: 0;
+}
+#menuHeader{
+  padding-top: 15px;
+}
+#homeMenu menu li{
+  font-size: 24px;
+  display: inline;
+}
+a:link{
+  text-decoration: none;
+}
+
+#banners{
+  display: block;
+  list-style: none;
+  white-space: nowrap;
+  position: relative;
+  padding-top: 120px;
+}
+#banners img{
+  margin-left: -190px;
+}
+#banner1{
+  background-color: #cfd2d4;
+  position: relative;
+  margin-right: 280px;
+  height: 480px;
+  width: 300px;
+  opacity: 75%;
+}
+#banners img:hover{
+  margin-left: -200px;
+  margin-top: -10px;
+}
+
+#banner1:hover{
+  background-color: #00e4e4;
+  position: relative;
+  margin-right: 264px;
+  margin-bottom: -16px;
+  height: 500px;
+  width: 320px;
+  border-style: solid;
+  border-color: #25547a;
+  opacity: 100%;
+}
+#banner2{
+  background-color: #cfd2d4;
+  margin-right: 280px;
+  height: 480px;
+  width: 300px;
+  opacity: 75%;
+}
+#banner2:hover{
+  background-color: #eee7ee;
+  position: relative;
+  margin-right: 264px;
+  margin-bottom: -16px;
+  height: 500px;
+  width: 320px;
+  border-style: solid;
+  border-color: #353535;
+  opacity: 100%;
+}
+#banner3{
+  background-color: #cfd2d4;
+  height: 480px;
+  width: 300px;
+  opacity: 75%;
+}
+#banner3:hover{
+  background-color: darksalmon;
+  position: relative;
+  margin-bottom: -16px;
+  height: 500px;
+  width: 320px;
+  border-style: solid;
+  border-color: #ab633e;
+  opacity: 100%;
+}
+
+#mainPage{
+  width: 1024px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 50px;
+}
+
+#mainArea {
+  clear: both;
+  padding-top: 50px;
+}
+
+#logoHome {
+  position: relative;
+  z-index: 10;
+  width: 200px;
+  height: 140px;
+  padding-left: 21px;
+  padding-right: 21px;
+  float: left;
+}
+#logoHome img{
+  width: 80%;
+}
+#top {
+  height: 160px;
+  line-height: 160px;
+}
+footer {
+  clear: left;
+  padding-top: 50px;
+}
+li.lastItem {
+  padding-right: 0;
+  margin-right: 0;
+}
