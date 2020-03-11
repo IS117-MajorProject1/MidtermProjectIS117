@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>F Layout</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<link rel="stylesheet" href="css/content.css">
+
+<div id="wrap">
+  <header id="top">
+    <div id="logoHome">
+      <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <div id="homeMenu">
+      <menu>
+        <li><a href="index.html" style="color: black">Home</a></li>
+        <li><a href="webstorm.html" style="color: black">Webstorm</a></li>
+        <li><a href="git.html" style="color: black">Git</a></li>
+        <li><a href="design.html" style="color: black">HTML/CSS</a></li>
+        <hr>
+      </menu>
+    </div>
+  </header>
+
+  <main id="mainArea">
+    <div id="content">
+      <h6>CS 117 - Group Project</h6>
+      <hr>
+      <p>F LAYOUT:</p>
+        <p>Today we're going to examine the "F Pattern Layout". Rather than trying to force the viewer's visual flow, the F-Layout gives in to the natural behaviors of most web surfers and it uses scientific studies to back it up. This tutorial will walk you through the principles of the F-Layout, why it works, and how you can create your own.</p>
+      <p>INTRODUCING THE F-LAYOUT</p>
+      <p>The F-Layout relies upon various eye tracking studies for it is foundational concept. These scientific studies show that web surfers read the screen in an "F" pattern - seeing the top, upper left corner and left sides of the screen most... only occasionally taking glances towards the right side of the screen. These eye tracking studies argue in favor of placing the most important elements of your site (branding, navigation, call to action) on the left side of the design. Let's take a peek at a heatmap using Web design tuts+ as the example:</p>
+
+      <!--<div id="imgExample">
+        <img src="images/flayout.jpeg">
+      </div>-->
+      <p>This heatmap shows the abstract F shape that user's general gravitate towards. Hot spots (red/orange/yellow) represent where user's attention lingers the longest.
+        Here is the general behavior pattern:</p>
+      <p> •	Visitors start at the top left of the page.</p>
+      <p> •	Then they scan the top of the site (navigation, subscription, search, etc.)</p>
+      <p> •	Next they move down, reading the next full row of content... all the way to the sidebar.</p>
+      <p> •	Last, surfers enter a "scanning pattern" once they hit the bulk of the site content.</p>
+        Let's take a moment to turn this pattern into a barebones wireframe:
+      <p>Reading is largely done the same way that a book is read: top to bottom, left to right; Sidebar content is often dismissed below the "fold", and usually is only scanned briefly. The bulk of the attention stays within the main content column where, in this case, the article listing is located.
+        A close inspection reveals a visual hierarchy that you might logically expect:</p>
+      <p>•The brand-mark and navigation occupy the visitor's attention first and foremost.</p>
+      <p>•Within the contest structure, images receive the greatest level of attention.</p>
+      <p>•Headlines come next.</p>
+      <p>•Text appears to be scanned, not read thoroughly.</p>
+
+
+    </div>
+
+    <div id="sidebar">
+      <menu>
+        <i>
+          <li><a href="tutorial1.html" style="color: #3c3c3c">Webstorm Tutorial</a></li>
+          <li><a href="tutorial2.html" style="color: #3c3c3c">AFS Tutorial</a></li>
+        </i>
+      </menu>
+    </div>
+
+  </main>
+  <footer>
+    <small> &copy; Copyright 2020, CS 117</small>
+  </footer>
+</div>
+
+
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>');</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
