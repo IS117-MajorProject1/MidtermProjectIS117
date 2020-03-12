@@ -1,10 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="utf-8">
+  <title>Webstorm</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+
+
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
+
+<link rel="stylesheet" href="css/content.css">
+
+<div id="wrap">
+  <header id="top">
+    <div id="logoHome">
+      <a href="index.html"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div id="homeMenu">
+      <menu>
+        <li><a href="index.html" style="color: black">Home</a></li>
+        <li><a href="webstorm.html" style="color: black">Webstorm</a></li>
+        <li><a href="git.html" style="color: black">Git</a></li>
+        <li><a href="design.html" style="color: black">HTML/CSS</a></li>
+
+      </menu>
+    </div>
+  </header>
+
+  <main id="mainArea">
+
+    <div id="content">
+      <h6>How To Make a Pull Request and Merge on Github</h6>
+      <hr>
+
+
+
+      <p><br> In this section I will show you how make a pull request from webstorm and merge it into the
+        repository on Github. First lets define some terms that we will be using.
+      </p>
+
+      <p><br><b>Push:</b> Pushing will commit your changes to the repository on github. You would do this
+        when you want to add you code to the master code in git.
+      </p>
+
+      <p><br><b>Pull:</b> A pull is when you taking in the changes made and merging them with your master.
+      </p>
+
+      <p><br><b>Pull Request:</b> A Pull Request would be sent for the admin of the repository to be checked
+         before it is merged into the master. This is helpful so the admin can determine if your changes
+        wont mess up the master file. If the admin accepts your pull request and merges it, your code becomes a permanent
+        part of the code.
+      </p>
+
+
+      <img src="images/pull1.png" alt="HTML5 Icon" style="width:600px;height:400px;">
+      <p><br>Now that youve finished making the changes in your new branch you're probably wondering how your getting it
+        into Github. I made a branch called, "DefinePull". I go to the bottom right click the branch and select,
+        "Push".
+      </p><br>
+
+      <img src="images/pull2.png" alt="HTML5 Icon" style="width:600px;height:400px;">
+      <p><br>A box will pop up with the changes you made. On the bottom right of the box is a button called, "Push", click it.
+      </p><br>
+
+      <img src="images/pull3.png" alt="HTML5 Icon" style="width:1000px;height:400px;">
+      <p><br>Now go to your github repository and you'll see your sent in branches. In my case
+        its my definePull branch. You want to click, "Compare & Pull request".
+      </p><br>
+
+      <img src="images/pull4.png" alt="HTML5 Icon" style="width:600px;height:400px;">
+      <p><br>Another box will pop up. Here you could leave comments and also create the pull request.
+      </p><br>
+
+      <img src="images/pull5.png" alt="HTML5 Icon" style="width:600px;height:400px;">
+      <p><br>In this screen the code will be analyzed but GitHub to determine if the merge is ok. If it is
+        you'll be able to click the button, "Merge Pull request".
+      </p><br>
+
+      <img src="images/pull6.png" alt="HTML5 Icon" style="width:600px;height:400px;">
+      <p><br>Congrats your code from webstorm has been merged perfectly into you repository on GitHub!
+      </p>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div id="sidebar">
+      <menu>
+        <i>
+          <li style="list-style-type:square">><a href="git.html" style="color: #3daaf2">Go Back to Git Homepage</a></li>
+          <li style="list-style-type:square">><a href="howtomakearepository.html" style="color: #3daaf2">How To Make a Repository</a></li>
+          <li style="list-style-type:square">><a href="howtomakeacommitinwebstorm.html" style="color: #3daaf2">How To Make A Commit In Webstorm</a></li>
+          <li style="list-style-type:square">><a href="howtomakeabranch.html" style="color: #3daaf2">How To Make A Branch</a></li>
+          <li style="list-style-type:square">><a href="howtomergebranch.html" style="color: #3daaf2">How To Merge One Branch To Another</a></li>
+        </i>
+      </menu>
+    </div>
+
+  </main>
+  <footer>
+    <small> &copy; Copyright 2020, CS 117</small>
+  </footer>
+</div>
+
 
 </body>
 </html>
