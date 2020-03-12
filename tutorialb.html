@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Webstorm Tutorial 1</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<link rel="stylesheet" href="css/content.css">
+
+<div id="wrap">
+  <header id="top">
+    <div id="logoHome">
+      <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <div id="homeMenu">
+      <menu>
+        <li><a href="index.html" style="color: black">Home</a></li>
+        <li><a href="webstorm.html" style="color: black">Webstorm</a></li>
+        <li><a href="git.html" style="color: black">Git</a></li>
+        <li><a href="design.html" style="color: black">HTML/CSS</a></li>
+        <hr>
+      </menu>
+    </div>
+  </header>
+
+  <main id="mainArea">
+    <div id="content">
+     <h6>Webstorm and AFS</h6>
+      <hr>
+      <p>
+        For this following tutorial, I will show you how to set-up AFS on Webstorm. How
+        to connect it with your school AFS .
+      </p>
+      <br> <p>For the first step you must go to <i>Tools</i> like we did in the
+    previous tutorial. Then click on <i>Start SSH session...</i></p>
+      <div id="imgExample">
+        <img src="images/autosave.PNG">
+      </div>
+    <br><p>After doing that a window will appear at the middle of the screen.
+    This is where you have to enter the college AFS url, username and password.</p>
+      <div id="imgExample2">
+        <img src="images/ssh.PNG">
+      </div>
+      <p>Once you filled everything with the correct information you will be able to
+        log in to the college AFS successfully. However, the site will not be working
+      as more steps will be needed.</p>
+      <br><p>For the next steps we will follow the first tutorial. Going into <i>
+      Tools</i> then to <i>Deployment</i>. You will see an option called <i>Configuration...</i>.
+      This is where we will set-up AFS to work for your site. We will have to click on the
+      <i>+</i> icon and create a new <i>SFTP</i> configuration.
+    </p>
+      <div id="imgExample3">
+        <img src="images/afs1.PNG">
+      </div>
+      <p>Once you create a new <i>SFTP</i> configuration then you will have to enter the
+      same information as before from <i>Start SSH session</i>.</p>
+      <div id="imgExample4">
+        <img src="images/afs2.PNG">
+      </div>
+      <p>The only changes we have to make is for the <i>Root path</i> and <i>Web service URL</i>.
+      THe only thing you do is to click on <i>Autodetect</i>. Then simply add <i>/public_html</i>
+      next to your ID. The following step is to change a couple of things from the
+        <i>Web service URL</i>. Instead of <i>afs13</i> we just change that to <i>web</i>. Then
+      we just add <i>/~your_ID</i> to the end of the url.</p>
+
+      <br><p>After configuring everything and if you can successfully connect then we can
+    proceed to the next step. If you are getting error when connecting, your host name, username
+    or password might be wrong. As for the following step we will proceed to <i>Mappings</i>
+    next to <i>Connection</i> in the above tabs.</p>
+
+      <div id="imgExample5">
+        <img src="images/afs3.PNG">
+      </div>
+      <p>These are simpler steps if you are not working with a HTML5 Boilerplate. First, we
+      just copy the name of your project in to the followings. For example, my project name
+      is <i>MajorProject1</i>. I will use that same name and paste it into <i>Deployment path</i>
+      and <i>Web path</i>. For the latter, we simply add a <i>/</i> at the beginning.</p>
+
+      <br><p>If you are intending on using the HTML5 Boilerplate then we must do a couple of
+      different steps. First, we must add the <i>HTML5 Boilerplate</i> url to the remote. Although,
+      you must <i>Enable Version Control Integration</i>. That will allow you to connect to
+      your <i>Github</i> account. After doing that you can locate <i>Remotes</i> by going to
+      the <i>VCS</i> tab. Then <i>Git</i> then <i>Remotes...</i>.</p>
+
+      <div id="imgExample8">
+        <img src="images/git0.PNG">
+      </div><br>
+      <div id="imgExample9">
+        <img src="images/git1.PNG">
+      </div><br>
+      <div id="imgExample10">
+        <img src="images/git2.PNG">
+      </div>
+
+      <p>Proceeding with the <i>Mappings</i> we must click on the folder icon as you can see below.</p>
+      <div id="imgExample6">
+        <img src="images/afs4.PNG">
+      </div>
+      <p>Once you do that a new window will pop up. Here we simply choose the project
+      we are working on and go to the <i>dist</i>(distribution) directory. Select it
+      and click <i>OK</i>.</p>
+      <div id="imgExample7">
+        <img src="images/afs5.PNG">
+      </div>
+
+    </div>
+
+    <div id="sidebar">
+      <menu>
+        <i>
+          <li><a href="tutorial1.html" style="color: #3c3c3c">Webstorm and AFS</a>(Tutorial 1)</li>
+      </i>
+      </menu>
+    </div>
+
+  </main>
+  <footer>
+    <small> &copy; Copyright 2020, CS 117</small>
+  </footer>
+</div>
+
+
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>');</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
