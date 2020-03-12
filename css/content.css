@@ -93,6 +93,13 @@ list-style-type: none;
   list-style-type: none;
   margin-left: 100px;
 }
+#sidebar2 li {
+  margin-left: 100px;
+}
+#sidebar2 #link2 {
+  list-style-type: none;
+  margin-left: 100px;
+}
 #sidebar {
   width: 420px;
   padding-left: 21px;
