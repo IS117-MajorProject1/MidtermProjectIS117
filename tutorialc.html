@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Webstorm Tutorial 1</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<link rel="stylesheet" href="css/content.css">
+
+<div id="wrap">
+  <header id="top">
+    <div id="logoHome">
+      <a href="index.html"><img src="images/logo.png"></a>
+    </div>
+    <div id="homeMenu">
+      <menu>
+        <li><a href="index.html" style="color: black">Home</a></li>
+        <li><a href="webstorm.html" style="color: black">Webstorm</a></li>
+        <li><a href="git.html" style="color: black">Git</a></li>
+        <li><a href="design.html" style="color: black">HTML/CSS</a></li>
+        <hr>
+      </menu>
+    </div>
+  </header>
+
+  <main id="mainArea">
+    <div id="content">
+      <h6>Linux Basic Commands</h6>
+      <hr>
+      <p>
+       There are several Linux command we can use within Webstorm terminal. However, we will go
+      through the basics. <br> The first command <i>cd</i> is one of the most used. This command
+      allows you to move between directories. The image below shows you that by just typing
+      <i>cd</i> and the name of the directory will take you to it. If you want to one directory back
+      you simply type <i>cd</i>.
+      </p>
+
+      <div id="imgExample13">
+        <img src="images/cd.PNG">
+      </div>
+
+      <p><br>
+        Another common command is <i>ls</i>, which refers to list. There are several
+        ways to use it. For the example below, typing <i>ls</i> will display the content
+        of a directory.
+      </p>
+
+      <div id="imgExample14">
+        <img src="images/ls.PNG">
+      </div>
+
+      <p><br><i>ls -l</i> will display a more detailed view of the directory. <i>ls -a</i> and
+        <i>ls -s</i> will display a list of directories from the oldest to the newest.
+      </p>
+      <div id="imgExample15">
+        <img src="images/ls2.PNG">
+      </div>
+
+      <br>
+      <div id="imgExample16">
+        <img src="images/ls1.PNG">
+      </div>
+      <p><br><i>mkdir</i> is another common command, which is mostly used for creating
+      a directory.</p>
+      <div id="imgExample17">
+        <img src="images/mkdir.PNG">
+      </div>
+      <p>You could also edit does directories. <i>rm -r</i> deletes a directory and all
+        of the sub directories. <i>rm [filename]</i> will delete the file you typed.</p>
+      <p><br>If you want to rename or move a directory/file to another directory you can do it by
+      using the command <i>mv [filename or directory] [renamed file or moved file directory]</i>.</p>
+      <div id="imgExample18">
+        <img src="images/mv.PNG">
+      </div><br>
+
+      <h6>Dealing With Files</h6>
+      <p>There is also a command that allows you to create an empty file or edit it.
+      For example, if you use the command <i>touch [name of file]</i>, that will create an
+      empty file. For example, if you type <i>touch readme.md</i>, then it will create a
+      document file in the current directory.</p>
+      <div id="imgExample19">
+        <img src="images/touch.PNG">
+      </div>
+      <p><br>To edit the files you use the command <i>vi [name of file]</i>. A command promt
+      will appear in the terminal where you can write/edit it. To write you press <i>w</i>
+      and to quit writing you press <i>wq</i>. If you want to exit and quit editing that file
+      you can press <i>q</i> to quit.</p>
+      <div id="imgExample20">
+        <img src="images/vi.PNG">
+      </div>
+      <br><p>A few couple of key words when editing a file through the command prompt.
+    If you press <i>i</i> it means insert. Pressing <i>x</i> means delete a character.
+    Pressing <i>dd</i> means delete a line. Lastly, if you press <i>/</i> it means
+    to search.</p>
+
+    </div>
+
+    <div id="sidebar">
+      <menu>
+        <i>
+         <li><a href="tutorial2.html" style="color: #3c3c3c">AFS Tutorials</a>(Tutorial 2)</li>
+      </i>
+      </menu>
+    </div>
+
+  </main>
+  <footer>
+    <small> &copy; Copyright 2020, CS 117</small>
+  </footer>
+</div>
+
+
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>');</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments);
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

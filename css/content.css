@@ -93,6 +93,13 @@ list-style-type: none;
   list-style-type: none;
   margin-left: 100px;
 }
+#sidebar2 li {
+  margin-left: 100px;
+}
+#sidebar2 #link2 {
+  list-style-type: none;
+  margin-left: 100px;
+}
 #sidebar {
   width: 420px;
   padding-left: 21px;
@@ -167,7 +174,16 @@ list-style-type: none;
   height: 350px;
   width: 40%;
 }
-
+#imgExample11 img{
+  margin-left: 300px;
+  height: 150px;
+  width: 100%;
+}
+#imgExample12 img{
+  margin-left: 300px;
+  height: 350px;
+  width: 40%;
+}
 #logoHome img{
   width: 80%;
 }
