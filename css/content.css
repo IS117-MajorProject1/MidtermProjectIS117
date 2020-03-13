@@ -124,6 +124,11 @@ list-style-type: none;
   height: 350px;
   width: 40%;
 }
+#imgExample00 img{
+  margin-left: 200px;
+  height: 120px;
+  width: 80%;
+}
 #imgExample1 img{
   margin-left: 200px;
   height: 350px;
@@ -176,12 +181,52 @@ list-style-type: none;
 }
 #imgExample11 img{
   margin-left: 300px;
-  height: 150px;
+  height: 100px;
   width: 100%;
 }
 #imgExample12 img{
   margin-left: 300px;
   height: 350px;
+  width: 40%;
+}
+#imgExample13 img{
+  margin-left: 300px;
+  height: 120px;
+  width: 40%;
+}
+#imgExample14 img{
+  margin-left: 300px;
+  height: 120px;
+  width: 40%;
+}
+#imgExample15 img{
+  margin-left: 300px;
+  height: 150px;
+  width: 80%;
+}
+#imgExample16 img{
+  margin-left: 300px;
+  height: 180px;
+  width: 120%;
+}
+#imgExample17 img{
+  margin-left: 300px;
+  height: 150px;
+  width: 40%;
+}
+#imgExample18 img{
+  margin-left: 300px;
+  height: 150px;
+  width: 40%;
+}
+#imgExample19 img{
+  margin-left: 300px;
+  height: 150px;
+  width: 40%;
+}
+#imgExample20 img{
+  margin-left: 300px;
+  height: 150px;
   width: 40%;
 }
 #logoHome img{
